@@ -1,25 +1,28 @@
-import logo from './logo.svg';
+import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
+import Login from './pages/login';
 import './App.css';
 
-function App() {
+
+export default function App() {
+  const handleButtonClick = () => {
+    console.log('Login button clicked');
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <header className="App-header">
+          Welcome to Course4You
+          <Link to="/pages/login">
+          <button className="login-button" onClick={handleButtonClick}>
+            Login
+          </button>
+        </Link>
+        <Routes>
+          <Route path="/pages/login" component={Login} />
+        </Routes>
+        </header>
+      </div>
+    </BrowserRouter>
   );
 }
-
-export default App;
