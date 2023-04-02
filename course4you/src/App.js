@@ -7,6 +7,7 @@ import CourseFinder from './pages/courseFinder/courseFinder';
 import StrengthsQuestions from './pages/questionnaire/strengthsQuestions';
 import LearnerQuestionnaire from './pages/questionnaire/learnerQuestionnaire';
 import Stat201Comments from './pages/comments/stat201Comments';
+import laptopImage from './pages/imgs/laptopimg.png'
 import './App.css';
 
 export default function App() {
@@ -45,7 +46,7 @@ export default function App() {
             </p>
 
             <div className='welcome-image'>
-
+              <img src={laptopImage} alt='' className='laptop-img'></img>
             </div>
 
             <button 
