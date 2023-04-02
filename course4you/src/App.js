@@ -2,6 +2,7 @@ import { Routes, Route, useNavigate } from 'react-router-dom';
 
 import Login from './pages/login';
 import './App.css';
+import CourseFinder from './pages/courseFinder/courseFinder';
 
 
 export default function App() {
@@ -24,6 +25,7 @@ export default function App() {
               </button>
           </div>} />
         <Route path="/pages/login" element={<Login />} />
+        <Route path="/pages/courseFinder/courseFinder" element={<CourseFinder/>} />
       </Routes>
     </div>
     </>

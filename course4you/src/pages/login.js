@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import './login.css';
 
 export default function Login() {
@@ -10,7 +10,7 @@ export default function Login() {
     const [studentNumber, setStudentNumber] = useState('');
     const [major, setMajor] = useState('');
 
-    const history = useHistory();
+    const navigate = useNavigate();
 
     const onSubmit = (e) => {
         e.preventDefault();
@@ -21,7 +21,7 @@ export default function Login() {
         console.log(studentNumber);
         console.log(major);
 
-        // history.push('/pages/');
+
     }
 
 
