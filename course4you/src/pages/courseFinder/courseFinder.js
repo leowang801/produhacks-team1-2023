@@ -18,7 +18,7 @@ export default function CourseFinder() {
 
     const onSearch = (e) => {
         e.preventDefault();
-
+        
         console.log('Search submitted');
         console.log(searchedCourse);
 
