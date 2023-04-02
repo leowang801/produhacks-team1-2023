@@ -31,6 +31,12 @@ export default function Profile() {
               University of British Columbia
           </div>
 
+        <div className="learner-box">
+          <div className="learner-type-text">
+            Visual Learner
+          </div>
+        </div>
+
 
 
 

@@ -31,13 +31,41 @@
    width: 551px;
    height: 48px;
    left: 80px;
-   top: 405px;
+   top: 350px;
    font-family: 'Inter';
    font-style: normal;
    font-weight: 300;
    font-size: 40px;
    line-height: 48px;
    color: #15182B;
+}
+
+.learner-box {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   width: 347px;
+   height: 65px;
+   left: 98px;
+   top: 420px;
+   background: #D5C7DE;
+   border-radius: 20px;
+}
+
+.learner-type-text {
+   position: absolute;
+   width: auto;
+   height: auto;
+
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 53px;
+
+
+   color: #FFFFFF;
 }
 .strengths {
    position: absolute;
