@@ -3,13 +3,21 @@
         "name": "STAT 201",
         "avg": 76,
         "prerec": "DSCI 100",
-        "description": "Introduction to Statistics"
+        "description": "Classical and simulation-based techniques for estimation and hypothesis testing, including inference for means and proportions. Emphasis on case studies and real data sets, as well as reproducible and transparent workflows when writing computer scripts for analysis and reports."
     },
         
     {
         "name": "MATH 101",
         "avg": 72,
         "prerec": "MATH 100",
-        "description": "Introduction to Integrals"
+        "description": "The definite integral, integration techniques, applications, modelling, infinite series. Derivatives of elementary functions. Applications and modelling: graphing, optimization. Derivatives of elementary functions. Applications and modelling: graphing, optimization."
+    },
+
+    {
+        "name": "CPSC 221",
+        "avg": 81,
+        "prerec": "CPSC 121",
+        "description": "Design and analysis of basic algorithms and data structures; algorithm analysis methods, searching and sorting algorithms, basic data structures, graphs and concurrency."
     }
+
 ]

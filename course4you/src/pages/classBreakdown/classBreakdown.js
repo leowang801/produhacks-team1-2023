@@ -2,7 +2,7 @@ import React from 'react';
 import commentIcon from '../imgs/comment-icon.png';
 import pieChart from '../imgs/pie-chart.png';
 import './classBreakdown.css';
-import { useLocation } from 'react-router-dom';
+import { useLocation, useNavigate, } from 'react-router-dom';
 
 import Data from '../../course-data.json';
 
@@ -16,6 +16,15 @@ export default function ClassBreakdown() {
     const course = Data.find((course) => course.name === searchedCourse);
     
     console.log(course);
+
+    const navigate = useNavigate();
+
+    const onCommentsSubmit = (e) => {
+        console.log('comments button clicked');
+        e.preventDefault();
+
+        navigate('/pages/comments/stat201Comments');
+    }
     return (
         <>
         <div className="class-breakdown">
@@ -53,11 +62,12 @@ export default function ClassBreakdown() {
                 </div>
             </div>
 
-            <button className='comments'>
+            <button className='comments'
+                    onClick={onCommentsSubmit}>
                 <img src={commentIcon} alt='' className='comment-icon'/>
             </button>
 
-            <img src={pieChart} alt='' className='pie-chart'></img>
+            {/*<img src={pieChart} alt='' className='pie-chart'></img>*/}
         </div>
         </>
 
