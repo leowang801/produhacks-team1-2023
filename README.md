@@ -1,12 +1,12 @@
 # produhacks-team1-2023
-
-To run the frontend:
+ 
+## To run the frontend:
 
 cd course4you
 
 npm start
 
-To run the backend:
+## To run the backend:
 
 cd backend
 
