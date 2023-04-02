@@ -25,18 +25,18 @@ export default function ClassBreakdown() {
 
             <div className='course-box'>
                 <h1 className='course-name'>
-                        DSCI 100
+                    DSCI 100
                 </h1>
             </div>
 
             <div className='course-description'>
-            Classical and simulation-based techniques 
-            for estimation and hypothesis testing, 
-            including inference for means and proportions. 
-            Emphasis on case studies and real data sets, 
-            as well as reproducible and transparent 
-            workflows when writing computer scripts 
-            for analysis and reports.
+                Classical and simulation-based techniques 
+                for estimation and hypothesis testing, 
+                including inference for means and proportions. 
+                Emphasis on case studies and real data sets, 
+                as well as reproducible and transparent 
+                workflows when writing computer scripts 
+                for analysis and reports.
             </div>
 
             <div className='last-year-average'>
@@ -52,7 +52,6 @@ export default function ClassBreakdown() {
             <button className='comments'>
                 <img src={commentIcon} className='comment-icon'/>
             </button>
-
         </div>
         </>
 
