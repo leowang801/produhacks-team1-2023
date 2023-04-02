@@ -1,8 +1,9 @@
 import React from 'react';
 import './courseFinder.css';
+import searchGlass from '../imgs/search-glass.png';
 
 export default function CourseFinder() {
-    console.log('Login page rendered');
+    console.log('Course Finder page rendered');
 
 
     return (
@@ -31,8 +32,11 @@ export default function CourseFinder() {
                     className="course-input"
                     />
                 </div>
-                <button className='search-button'>
-                    S
+                <button 
+                    className='search-button'
+                    //onSubmit={}
+                    >
+                    <img src={searchGlass} alt='search' className='search-glass-img'/>
                 </button>
             </div>
 
