@@ -53,7 +53,7 @@ export default function ClassBreakdown() {
             </div>
 
             <button className='comments'>
-                <img src={commentIcon} className='comment-icon'/>
+                <img src={commentIcon} alt='' className='comment-icon'/>
             </button>
         </div>
         </>
