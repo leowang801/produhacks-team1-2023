@@ -14,9 +14,9 @@
 }
 .profile-major {
    position: absolute;
-   width: 605px;
+   width: 700px;
    height: 126px;
-   left: 110px;
+   left: 80px;
    top: 256px;
    text-align: left;
    font-family: 'Inter';
@@ -43,7 +43,7 @@
    position: absolute;
    width: 121px;
    height: 53px;
-   left: 110px;
+   left: 90px;
    top: 493px;
    font-family: 'Inter';
    font-style: normal;
@@ -138,4 +138,10 @@
 
 
   color: #FFFFFF;
+}
+
+.s-w-wrapper {
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }

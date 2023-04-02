@@ -75,10 +75,10 @@ export default function CourseFinder() {
                 </h1>
                 <div className='inner-box2'>
                 <p className='description'> 
-                Classical and simulation-based 
-                techniques for estimation and 
-                hypothesis testing, including 
-                inference for...
+                The definite integral, integration 
+                techniques, applications, modelling, 
+                infinite series. Derivatives of elementary 
+                functions...
                 </p>
                 </div>
             </div>
@@ -89,10 +89,9 @@ export default function CourseFinder() {
                 </h1>
                 <div className='inner-box3'>
                 <p className='description'>
-                Classical and simulation-based 
-                techniques for estimation and 
-                hypothesis testing, including 
-                inference for...
+                Design and analysis of basic algorithms 
+                and data structures; algorithm analysis methods, 
+                searching...
                 </p>
                 </div>
             </div>

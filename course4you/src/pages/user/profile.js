@@ -21,7 +21,7 @@ export default function Profile() {
 
 
           <div className='profile-major'>
-              Second Year Computer Science Student
+              Computer Science Student
           </div>
 
 
@@ -41,27 +41,27 @@ export default function Profile() {
 
 
 
-          <div className='rect1'>
+          <div className='rect1 s-w-wrapper'>
              <div className="strength-box">
-               Data Analysis
+               Math
              </div>
           </div>
 
 
 
 
-          <div className='rect2'>
+          <div className='rect2 s-w-wrapper'>
           <div className="strength-box">
-               Data Analysis
+               English
              </div>
           </div>
 
 
 
 
-          <div className='rect3'>
+          <div className='rect3 s-w-wrapper'>
           <div className="strength-box">
-               Data Analysis
+               Physics
              </div>
           </div>
 
@@ -75,18 +75,18 @@ export default function Profile() {
 
 
 
-          <div className='rect4'>
+          <div className='rect4 s-w-wrapper'>
               <div className='strength-box'>
-                  DSCI 100
+              Pschology
               </div>
           </div>
 
 
 
 
-          <div className='rect5'>
+          <div className='rect5 s-w-wrapper'>
                <div className='strength-box'>
-                  DSCI 100
+                  Biology
               </div>
           </div>
 

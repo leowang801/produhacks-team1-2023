@@ -10,6 +10,7 @@
     font-weight: 900;
     font-size: 90px;
     line-height: 121px;
+    text-align: left;
     /* identical to box height */
 
 
@@ -22,6 +23,7 @@
     height: 63px;
     left: 100px;
     top: 216px;
+    text-align: left;
 
     font-family: 'Inter';
     font-style: normal;

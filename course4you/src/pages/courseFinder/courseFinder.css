@@ -149,7 +149,9 @@
 }
 
 .description {
-    /* padding: 30px; */
+    padding: 2px; 
+    padding-left: 15px;
+    padding-right: 15px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
