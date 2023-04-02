@@ -1,11 +1,18 @@
 import React from 'react';
 import './courseFinder.css';
 import searchGlass from '../imgs/search-glass.png';
+import { useNavigate } from 'react-router-dom';
 
 export default function CourseFinder() {
     console.log('Course Finder page rendered');
 
+    const navigate = useNavigate();
 
+    const onSubmit = (e) => {
+        e.preventDefault();
+        
+        navigate('/pages/user/profile');
+    }
     return (
         <>
         <div className="course-finder">
@@ -80,7 +87,7 @@ export default function CourseFinder() {
 
             <button 
             type='submit'
-            //onClick={onSubmit}     
+            onClick={onSubmit}     
             className="profile-button">
                 Profile
             </button>
