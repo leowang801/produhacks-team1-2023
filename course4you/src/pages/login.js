@@ -8,6 +8,8 @@ export default function Login() {
     return (
         <>
         <div className="register">
+            <div className='ellipse'></div>
+
             <h1 className='create-account-text'>
                 Create an account today
             </h1>

@@ -212,3 +212,14 @@
     font-size: 60.2px;
     line-height: 86px;
 }
+
+.ellipse {
+    position: absolute;
+    width: 1475px;
+    height: 994px;
+    left: -422px;
+    top: -592px;
+
+    background: #D5C7DE;
+    filter: blur(250px);
+}
