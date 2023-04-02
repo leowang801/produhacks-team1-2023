@@ -1,6 +1,6 @@
 import React from 'react';
 import commentIcon from '../imgs/comment-icon.png';
-import pieChart from '../imgs/pie-chart.png';
+// import pieChart from '../imgs/pie-chart.png';
 import './classBreakdown.css';
 import { useLocation, useNavigate, } from 'react-router-dom';
 

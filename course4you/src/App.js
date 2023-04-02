@@ -34,13 +34,14 @@ export default function App() {
             </h2>
 
             <p className="welcome-text"> 
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-              Ut et massa mi. Aliquam in hendrerit urna. Pellentesque 
-              sit amet sapien fringilla, mattis ligula consectetur, 
-              ultrices mauris. Maecenas vitae mattis tellus. Nullam 
-              quis imperdiet augue. Vestibulum auctor ornare leo, non 
-              suscipit magna interdum eu. Curabitur pellentesque nibh 
-              nibh, at maximus ante fermentum sit amet.
+            Join us in our journey to bridge the gap 
+            between students and professors. On top of 
+            generating personalized course recommendations 
+            for university students based on their skills, 
+            weaknesses, and course history, Course4You aims 
+            to help professors better tailor their teaching 
+            to the needs of their students. Welcome to the 
+            future of university education!
             </p>
 
             <div className='welcome-image'>
