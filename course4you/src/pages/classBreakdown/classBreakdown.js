@@ -10,17 +10,17 @@ export default function ClassBreakdown() {
         <div className="class-breakdown">
             <div className='ellipse'></div>
 
-            <h1>
+            <div className='title'>
                 STAT 201
-            </h1>
+            </div>
 
-            <h2>
+            <div className='subtitle'>
                 Faculty of Sciences
-            </h2>
+            </div>
 
-            <h3>
+            <div className='prereqs'>
                 Prerequisites
-            </h3>
+            </div>
 
             <div className='course-box'>
                 <rect className='course-rect'>
