@@ -1,0 +1,61 @@
+.course-comments {
+    position: absolute;
+    width: 1046px;
+    height: 121px;
+    left: 98px;
+    top: 95px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 121px;
+    /* identical to box height */
+
+
+    color: #15182B;
+
+}
+
+.first-icon {
+    position: absolute;
+    width: 103px;
+    height: 103px;
+    left: 98px;
+    top: 272px;
+}
+
+.first-comment-box {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1037px;
+    height: 233px;
+    left: 242px;
+    top: 272px;
+
+    border: 2px solid #000000;
+    border-radius: 40px;
+}
+
+.second-icon {
+    position: absolute;
+    width: 103px;
+    height: 103px;
+    left: 95px;
+    top: 579px;
+
+}
+
+.first-comment-box {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 833px;
+    height: 150px;
+    left: 239px;
+    top: 579px;
+
+    border: 2px solid #000000;
+    border-radius: 40px;
+}
