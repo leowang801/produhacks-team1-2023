@@ -21,7 +21,7 @@ export default function Profile() {
 
 
           <div className='profile-major'>
-              Computer Science Student
+              Math Student
           </div>
 
 
