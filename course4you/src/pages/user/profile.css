@@ -1,177 +1,141 @@
 .student {
-    position: absolute;
-    width: 568px;
-    height: 121px;
-    left: 0px;
-    top: 95px;
- 
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 100px;
-    line-height: 121px;
-    /* identical to box height */
-    color: #15182B;
- }
- 
- 
- .profile-major {
-    position: absolute;
-    width: 605px;
-    height: 126px;
-    left: 50px;
-    top: 256px;
- 
- 
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 52px;
-    line-height: 63px;
- 
- 
-    color: #15182B;
- }
- 
- 
- .uni {
-    position: absolute;
-    width: 551px;
-    height: 48px;
-    left: 98px;
-    top: 405px;
- 
- 
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 40px;
-    line-height: 48px;
- 
- 
-    color: #15182B;
- }
- 
- 
- .skills {
-    position: absolute;
-    width: 121px;
-    height: 53px;
-    left: 101px;
-    top: 493px;
- 
- 
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 53px;
- 
- 
-    color: #15182B;
- }
- 
- 
- .rect1 {
-    position: absolute;
-    width: 347px;
-    height: 65px;
-    left: 98px;
-    top: 569px;
- 
- 
-    background: #D5C7DE;
-    border-radius: 20px;
- }
- 
- 
- .rect2 {
-    position: absolute;
-    width: 347px;
-    height: 65px;
-    left: 473px;
-    top: 569px;
- 
- 
-    background: #D5C7DE;
-    border-radius: 20px;
- }
- 
- 
- .rect3 {
-    position: absolute;
-    width: 347px;
-    height: 65px;
-    left: 850px;
-    top: 569px;
- 
- 
-    background: #D5C7DE;
-    border-radius: 20px;
- }
- 
- 
- .best-classes {
-    position: absolute;
-    width: 286px;
-    height: 53px;
-    left: 80px;
-    top: 674px;
- 
- 
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 53px;
- 
- 
-    color: #15182B;
- }
- 
- 
- .rect4 {
-    position: absolute;
-    width: 224px;
-    height: 65px;
-    left: 98px;
-    top: 747px;
- 
- 
-    background: #D5C7DE;
-    border-radius: 20px;
- }
- 
- 
- .rect5 {
-    position: absolute;
-    width: 224px;
-    height: 65px;
-    left: 350px;
-    top: 747px;
- 
- 
-    background: #D5C7DE;
-    border-radius: 20px;
- }
- 
- 
- .class-1 {
-    position: absolute;
-    width: 204px;
-    height: 53px;
-    left: 118px;
-    top: 753px;
- 
- 
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 53px;
-    text-align: center;
- 
- 
-    color: #FFFFFF;
- }
- 
+   position: absolute;
+   width: 568px;
+   height: 121px;
+   left: 0px;
+   top: 95px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 100px;
+   line-height: 121px;
+   /* identical to box height */
+   color: #15182B;
+}
+.profile-major {
+   position: absolute;
+   width: 605px;
+   height: 126px;
+   left: 110px;
+   top: 256px;
+   text-align: left;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 52px;
+   line-height: 63px;
+   color: #15182B;
+}
+.uni {
+   position: absolute;
+   width: 551px;
+   height: 48px;
+   left: 80px;
+   top: 405px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 40px;
+   line-height: 48px;
+   color: #15182B;
+}
+.strengths {
+   position: absolute;
+   width: 121px;
+   height: 53px;
+   left: 110px;
+   top: 493px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 53px;
+   color: #15182B;
+}
+.rect1 {
+   position: absolute;
+   width: 347px;
+   height: 65px;
+   left: 98px;
+   top: 569px;
+   background: #D5C7DE;
+   border-radius: 20px;
+}
+.rect2 {
+   position: absolute;
+   width: 347px;
+   height: 65px;
+   left: 473px;
+   top: 569px;
+   background: #D5C7DE;
+   border-radius: 20px;
+}
+.rect3 {
+   position: absolute;
+   width: 347px;
+   height: 65px;
+   left: 850px;
+   top: 569px;
+   background: #D5C7DE;
+   border-radius: 20px;
+}
+.weaknesses {
+   position: absolute;
+   width: 286px;
+   height: 53px;
+   left: 80px;
+   top: 674px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 53px;
+   color: #15182B;
+}
+.rect4 {
+   position: absolute;
+   width: 347px;
+   height: 65px;
+   left: 98px;
+   top: 747px;
+   background: #D5C7DE;
+   border-radius: 20px;
+}
+.rect5 {
+   position: absolute;
+   width: 347px;
+   height: 65px;
+   left: 473px;
+   top: 747px;
+   background: #D5C7DE;
+   border-radius: 20px;
+}
+.class-1 {
+   position: absolute;
+   width: 204px;
+   height: 53px;
+   left: 118px;
+   top: 753px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 53px;
+   text-align: center;
+   color: #FFFFFF;
+}
+.strength-box {
+  position: absolute;
+  width: 305px;
+  height: 53px;
+
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 53px;
+
+
+  color: #FFFFFF;
+}
