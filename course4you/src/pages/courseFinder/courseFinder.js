@@ -45,7 +45,7 @@ export default function CourseFinder() {
                     STAT 201
                 </h1>
                 <div className='inner-box1'>
-                    <p>
+                    <p className='description'>
                     Classical and simulation-based 
                     techniques for estimation and 
                     hypothesis testing, including 
@@ -59,10 +59,12 @@ export default function CourseFinder() {
                     MATH 101
                 </h1>
                 <div className='inner-box2'>
+                <p className='description'> 
                 Classical and simulation-based 
                 techniques for estimation and 
                 hypothesis testing, including 
                 inference for...
+                </p>
                 </div>
             </div>
 
@@ -71,10 +73,12 @@ export default function CourseFinder() {
                     CPSC 221
                 </h1>
                 <div className='inner-box3'>
+                <p className='description'>
                 Classical and simulation-based 
                 techniques for estimation and 
                 hypothesis testing, including 
                 inference for...
+                </p>
                 </div>
             </div>
 

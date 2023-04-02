@@ -180,6 +180,17 @@
     border-radius: 29.7135px;
 }
 
+.description {
+    /* padding: 30px; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21.6098px;
+    line-height: 26px;
+
+    color: #15182B;
+}
+
 /* .class1 {
     position: absolute;
     width: 226px;
