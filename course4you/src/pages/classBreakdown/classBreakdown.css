@@ -1,4 +1,4 @@
-.h1 {
+.title {
     position: absolute;
     width: 474px;
     height: 121px;
@@ -16,11 +16,11 @@
     color: #15182B;
 }
 
-.h2 {
+.subtitle {
     position: absolute;
     width: 498px;
     height: 63px;
-    left: 98px;
+    left: 80px;
     top: 216px;
 
     font-family: 'Inter';
@@ -34,7 +34,7 @@
     color: #15182B;
 }
 
-.h3 {
+.prereqs {
     position: absolute;
     width: 297px;
     height: 53px;
@@ -62,9 +62,9 @@
     position: absolute;
     width: 244px;
     height: 65px;
-    left: 98px;
-    top: 408px;
-
+    left: 20px;
+    /* top: 408px; */
+    top: 10px;
     background: #D5C7DE;
     border-radius: 20px;
 }
@@ -72,15 +72,14 @@
 .course-name {
     position: absolute;
     width: 204px;
-    height: 53px;
-    left: 118px;
-    top: 414px;
+    height: 0px;
+    left: 20px;
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 53px;
+    /* line-height: 53px; */
 
     color: #FFFFFF;
 }
@@ -136,8 +135,8 @@
     position: absolute;
     width: 174px;
     height: 97px;
-    left: 1139px;
-    top: 386px;
+    left: 30px;
+    top: 30px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -155,7 +154,7 @@
     width: 660.52px;
     height: 170px;
     left: 98px;
-    top: 546px;
+    top: 600px;
 
     background: #D5C7DE;
     border-radius: 20px;
@@ -165,8 +164,8 @@
     position: absolute;
     width: 508.64px;
     height: 112px;
-    left: 261.36px;
-    top: 562px;
+    left: 100px;
+    top: 0px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -174,7 +173,7 @@
     font-size: 36px;
     line-height: 44px;
 
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .tips-button {
@@ -189,8 +188,8 @@
     position: absolute;
     left: 6.6%;
     right: 85%;
-    top: 78.32%;
-    bottom: 9.86%;
+    top: 85%;
+    bottom: 5%;
 }
 
 .comments {
