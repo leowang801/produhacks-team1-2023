@@ -33,26 +33,26 @@ export default function CourseFinder() {
                 </div>
             </div>
 
-            <h1 className='create-account-text'>
+            <h1 className='suggested-courses-text'>
                 Suggested Courses
             </h1>
 
             <div className='course1'>
-                <h1></h1>
-                <div>
+                <h1 className='class1'></h1>
+                <div className='text'>
                     
                 </div>
             </div>
 
             <div className='course2'>
-                <h1></h1>
+                <h1 className='class2'></h1>
                 <div>
                     
                 </div>
             </div>
 
             <div className='course3'>
-                <h1></h1>
+                <h1 className='class3'></h1>
                 <div>
                     
                 </div>

@@ -21,7 +21,7 @@ export default function Login() {
         console.log(studentNumber);
         console.log(major);
 
-        history.push('/pages/');
+        // history.push('/pages/');
     }
 
 

@@ -68,7 +68,7 @@
     flex-grow: 0;
 }
 
-.create-account-text {
+.suggested-courses-text {
     position: absolute;
     width: 596px;
     height: 73px;
@@ -109,6 +109,26 @@
     height: 298.94px;
     left: 935.95px;
     top: 512px;
+}
+
+.class1 {
+
+}
+
+.text {
+    position: absolute;
+    width: 273.72px;
+    height: 111.65px;
+    left: 196.71px;
+    top: 620.05px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21.6098px;
+    line-height: 26px;
+
+    color: #15182B;
 }
 
 .profile-button {
