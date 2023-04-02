@@ -103,3 +103,102 @@
 
     color: #15182B;
 }
+
+.last-year-average {
+    position: absolute;
+    width: 165px;
+    height: 132px;
+    left: 923px;
+    top: 371px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: right;
+
+    color: #15182B;
+}
+
+.average {
+    position: absolute;
+    width: 226px;
+    height: 151px;
+    left: 1113px;
+    top: 361px;
+
+    background: #15182A;
+    border-radius: 20px;
+}
+
+.percent {
+    position: absolute;
+    width: 174px;
+    height: 97px;
+    left: 1139px;
+    top: 386px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 97px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.advice-box {
+    position: absolute;
+    width: 660.52px;
+    height: 170px;
+    left: 98px;
+    top: 546px;
+
+    background: #D5C7DE;
+    border-radius: 20px;
+}
+
+.advice {
+    position: absolute;
+    width: 508.64px;
+    height: 112px;
+    left: 261.36px;
+    top: 562px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #FFFFFF;
+}
+
+.tips-button {
+    position: absolute;
+    left: 9.03%;
+    right: 83.89%;
+    top: 56.35%;
+    bottom: 33.2%;
+}
+
+.back-button {
+    position: absolute;
+    left: 6.6%;
+    right: 85%;
+    top: 78.32%;
+    bottom: 9.86%;
+}
+
+.comments {
+    position: absolute;
+    width: 226px;
+    height: 226px;
+    left: 1113px;
+    top: 697px;
+
+    background: #15182B;
+}

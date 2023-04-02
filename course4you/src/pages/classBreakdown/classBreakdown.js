@@ -30,43 +30,42 @@ export default function ClassBreakdown() {
                 </rect>
             </div>
 
-            <div className='course2'>
-                <h1 className='class2'>
-                    MATH 101
-                </h1>
-                <div className='inner-box2'>
-                <p className='description'> 
-                Classical and simulation-based 
-                techniques for estimation and 
-                hypothesis testing, including 
-                inference for...
-                </p>
-                </div>
-            </div>
-
             <div className='course-description'>
-                
+            Classical and simulation-based techniques 
+            for estimation and hypothesis testing, 
+            including inference for means and proportions. 
+            Emphasis on case studies and real data sets, 
+            as well as reproducible and transparent 
+            workflows when writing computer scripts 
+            for analysis and reports.
             </div>
 
-            <div className='course3'>
-                <h1 className='class3'>
-                    CPSC 221
-                </h1>
-                <div className='inner-box3'>
-                <p className='description'>
-                Classical and simulation-based 
-                techniques for estimation and 
-                hypothesis testing, including 
-                inference for...
-                </p>
+            <div className='last-year-average'>
+                Last Year's Average
+            </div>
+
+            <div className='average'>
+                <div className='percent'>
+                    76%
                 </div>
             </div>
 
-            <button 
-            type='submit'
-            //onClick={onSubmit}     
-            className="profile-button">
-                Profile
+            <div className='advice-box'>
+                <button className='tips-button'>
+
+                </button>
+                <p className='advice'>
+                    Students who also took MATH 101 
+                    did 7% better in STAT 201 on average!
+                </p>
+            </div>
+
+            <button className='back-button'>
+
+            </button>
+
+            <button className='comments'>
+
             </button>
 
         </div>
