@@ -1,0 +1,130 @@
+.course-finder {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+
+    background: #FFFFFF;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 9.79px;
+
+    position: absolute;
+    width: 802.43px;
+    height: 137px;
+    left: 318px;
+    top: 127px;
+
+    background: #FFFFFF;
+    border-radius: 68.5px;
+}
+
+.search-text {
+    width: 217px;
+    height: 59px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39.1429px;
+    line-height: 59px;
+    /* identical to box height, or 150% */
+
+    display: flex;
+    align-items: center;
+
+    /* M3/sys/light/on-surface-variant */
+
+    color: #49454F;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.button1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 24.46px;
+
+    width: 117.43px;
+    height: 117.43px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.create-account-text {
+    position: absolute;
+    width: 596px;
+    height: 73px;
+    left: 422px;
+    top: 369px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 73px;
+    /* identical to box height */
+
+    color: #000000;
+}
+
+.course1 {
+    position: absolute;
+    width: 334.05px;
+    height: 298.94px;
+    left: 167px;
+    top: 512px;
+
+    mix-blend-mode: normal;
+}
+
+.course2 {
+    position: absolute;
+    width: 334.05px;
+    height: 298.94px;
+    left: 551.47px;
+    top: 512px;
+}
+
+.course3 {
+    position: absolute;
+    width: 334.05px;
+    height: 298.94px;
+    left: 935.95px;
+    top: 512px;
+}
+
+.profile-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 19.17px;
+
+    position: absolute;
+    width: 167px;
+    height: 99.67px;
+    left: 634px;
+    top: 881px;
+
+    background: #D5C7DE;
+    border-radius: 191.667px;
+}
