@@ -21,7 +21,7 @@ export default function Login() {
         console.log(studentNumber);
         console.log(major);
 
-        navigate('/pages/courseFinder/courseFinder');
+        navigate('/pages/questionnaire/learnerQuestionaire');
     }
 
     return (

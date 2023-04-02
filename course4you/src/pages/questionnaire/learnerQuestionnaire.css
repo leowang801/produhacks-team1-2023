@@ -1,9 +1,18 @@
+.learner-questionnaire {
+    height : 800px;
+    display: flex;
+    align-items: center;
+}
+
 .questionnaire-question {
     position: absolute;
     width: 1182px;
     height: 97px;
     left: 129px;
-    top: 366px;
+    top: 250px;
+
+    display: flex;
+    align-items: center;
 
     font-family: 'Inter';
     font-style: normal;
@@ -28,7 +37,7 @@
     width: 310.6px;
     height: 118px;
     left: 182px;
-    top: 523px;
+    top: 400px;
     font-size: 40px;
 
     background: #D5C7DE;
@@ -46,7 +55,7 @@
     width: 316.6px;
     height: 118px;
     left: 558px;
-    top: 523px;
+    top: 400px;
     font-size: 40px;
 
     background: #D5C7DE;
@@ -64,7 +73,7 @@
     width: 317.6px;
     height: 118px;
     left: 940px;
-    top: 523px;
+    top: 400px;
     font-size: 40px;
 
     background: #D5C7DE;

@@ -1,6 +1,5 @@
 import React from 'react';
 import './learnerQuestionnaire.css';
-import searchGlass from '../imgs/search-glass.png';
 import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 
@@ -12,7 +11,7 @@ export default function LearnerQuestionnaire() {
     const onSubmit = (e) => {
         e.preventDefault();
 
-        navigate('/pages/questionnaire/strengthsQuestions');
+        navigate('/pages/courseFinder/courseFinder');
     }
 
     return (
@@ -31,12 +30,12 @@ export default function LearnerQuestionnaire() {
 
             <button className='choice-2 learner-question'
                     onClick={onSubmit}>
-                Audatory
+                Auditory
             </button>
 
             <button className='choice-3 learner-question'
                     onClick={onSubmit}>
-                Kinisthetic
+                Kinesthetic
             </button>
 
         </div>

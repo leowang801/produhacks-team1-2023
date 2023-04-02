@@ -78,9 +78,9 @@
 .welcome-image {
   position: absolute;
   width: 434px;
-  height: 546px;
-  left: -150px;
-  top: 400px;
+  height: 520px;
+  left: -180px;
+  top: 340px;
 
   /* border-radius: 50%;
   
@@ -115,5 +115,5 @@
 
 .laptop-img {
   width: auto;
-  height: 90%;
+  height: 100%;
 }
