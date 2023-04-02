@@ -17,7 +17,6 @@ export default function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={
-          
             <div className="App-header">
               Welcome to Course4You
               <button className="login-button" onClick={navigateToLogin}>
