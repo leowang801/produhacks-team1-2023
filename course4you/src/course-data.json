@@ -2,14 +2,14 @@
     {
         "name": "STAT 201",
         "avg": 76,
-        "pre-rec": "DSCI 100",
+        "prerec": "DSCI 100",
         "description": "Introduction to Statistics"
     },
         
     {
         "name": "MATH 101",
         "avg": 72,
-        "pre-rec": "MATH 100",
+        "prerec": "MATH 100",
         "description": "Introduction to Integrals"
     }
 ]

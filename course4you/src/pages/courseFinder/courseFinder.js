@@ -21,6 +21,8 @@ export default function CourseFinder() {
 
         console.log('Search submitted');
         console.log(searchedCourse);
+
+        navigate('/pages/classBreakdown/classBreakdown', {state: {searchedCourse}});
     }
 
     return (
