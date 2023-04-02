@@ -77,7 +77,7 @@ export default function Profile() {
 
           <div className='rect4 s-w-wrapper'>
               <div className='strength-box'>
-              Pschology
+              Psychology
               </div>
           </div>
 
