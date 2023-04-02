@@ -38,23 +38,38 @@ export default function CourseFinder() {
             </h1>
 
             <div className='course1'>
-                <h1 className='class1'></h1>
+                <h1 className='class1'>
+                    STAT 201
+                </h1>
                 <div className='text'>
-                    
+                Classical and simulation-based 
+                techniques for estimation and 
+                hypothesis testing, including 
+                inference for...
                 </div>
             </div>
 
             <div className='course2'>
-                <h1 className='class2'></h1>
-                <div>
-                    
+                <h1 className='class2'>
+                    MATH 101
+                </h1>
+                <div className='text'>
+                Classical and simulation-based 
+                techniques for estimation and 
+                hypothesis testing, including 
+                inference for...
                 </div>
             </div>
 
             <div className='course3'>
-                <h1 className='class3'></h1>
-                <div>
-                    
+                <h1 className='class3'>
+                    CPSC 221
+                </h1>
+                <div className='text'>
+                Classical and simulation-based 
+                techniques for estimation and 
+                hypothesis testing, including 
+                inference for...
                 </div>
             </div>
 
@@ -63,7 +78,7 @@ export default function CourseFinder() {
                 type='submit'
                 //onClick={onSubmit}     
                 className="profile-button">
-                    Continue
+                    Profile
                 </button>
             </div>
 

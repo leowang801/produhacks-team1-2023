@@ -86,6 +86,7 @@
 }
 
 .course1 {
+    border: 2px solid black;
     position: absolute;
     width: 334.05px;
     height: 298.94px;
@@ -96,6 +97,7 @@
 }
 
 .course2 {
+    border: 2px solid black;
     position: absolute;
     width: 334.05px;
     height: 298.94px;
@@ -104,6 +106,7 @@
 }
 
 .course3 {
+    border: 2px solid black;
     position: absolute;
     width: 334.05px;
     height: 298.94px;
@@ -111,11 +114,58 @@
     top: 512px;
 }
 
-.class1 {
+/* .class1 {
+    position: absolute;
+    width: 226px;
+    height: 60.33px;
+    left: 221px;
+    top: 533.47px;
 
-}
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45.0204px;
+    line-height: 54px;
+    text-align: center;
 
-.text {
+    color: #15182B;
+} */
+/* 
+.class2 {
+    position: absolute;
+    width: 226px;
+    height: 60.33px;
+    left: 606px;
+    top: 533.47px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45.0204px;
+    line-height: 54px;
+    text-align: center;
+
+    color: #15182B;
+} */
+
+/* .class3 {
+    position: absolute;
+    width: 226px;
+    height: 60.33px;
+    left: 606px;
+    top: 533.47px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45.0204px;
+    line-height: 54px;
+    text-align: center;
+
+    color: #15182B;
+} */
+
+/* .text {
     position: absolute;
     width: 273.72px;
     height: 111.65px;
@@ -129,7 +179,7 @@
     line-height: 26px;
 
     color: #15182B;
-}
+} */
 
 .profile-button {
     display: flex;
@@ -140,10 +190,15 @@
     gap: 19.17px;
 
     position: absolute;
+    /* width: 167px;
+    height: 99.67px;
+    left: 634px;
+    top: 881px; */
+
     width: 167px;
     height: 99.67px;
     left: 634px;
-    top: 881px;
+    top: 500px;
 
     background: #D5C7DE;
     border-radius: 191.667px;
