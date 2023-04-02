@@ -2,30 +2,40 @@ import React from 'react';
 import './courseFinder.css';
 import searchGlass from '../imgs/search-glass.png';
 import { useNavigate } from 'react-router-dom';
+import { useState } from 'react';
 
 export default function CourseFinder() {
-    console.log('Course Finder page rendered');
+    //console.log('Course Finder page rendered');
 
     const navigate = useNavigate();
+    const [searchedCourse, setSearchedCourse] = useState('');
 
     const onSubmit = (e) => {
         e.preventDefault();
         
         navigate('/pages/user/profile');
     }
+
+    const onSearch = (e) => {
+        e.preventDefault();
+
+        console.log('Search submitted');
+        console.log(searchedCourse);
+    }
+
     return (
         <>
         <div className="course-finder">
             <div className='ellipse'></div>
 
-            <div className = 'search'>
+            <form onSubmit={onSearch} className = 'search'>
                 <input
                     id="course"
                     name="course"
                     type="course"
                     autoComplete="course"
-                    //value={email}
-                    //onChange={(e) => setEmail(e.target.value)}
+                    value={searchedCourse}
+                    onChange={(e) => setSearchedCourse(e.target.value)}
                     required
                     placeholder='Find Course'
                     className="course-input"
@@ -33,11 +43,11 @@ export default function CourseFinder() {
 
                 <button 
                     className='search-button'
-                    //onSubmit={}
+                    type='submit'
                     >
                     <img src={searchGlass} alt='search' className='search-glass-img'/>
                 </button>
-            </div>
+            </form>
 
             <div className='suggested-courses-text'>
                 Suggested Courses

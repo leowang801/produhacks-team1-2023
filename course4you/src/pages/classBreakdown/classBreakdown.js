@@ -2,6 +2,8 @@ import React from 'react';
 import commentIcon from '../imgs/comment-icon.png';
 import './classBreakdown.css';
 
+import Data from '../../course-data.json';
+
 export default function ClassBreakdown() {
     console.log('Login page rendered');
 
