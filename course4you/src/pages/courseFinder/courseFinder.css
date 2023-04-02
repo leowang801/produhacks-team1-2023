@@ -1,5 +1,7 @@
 .course-finder {
-    position: relative;
+    display: flex;
+    justify-content: center;
+
     width: 1440px;
     height: 1024px;
 
@@ -8,71 +10,36 @@
 
 .search {
     display: flex;
+}
+
+.course-input {
+    display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0px;
+    padding-left: 50px;
     gap: 9.79px;
 
     position: absolute;
     width: 802.43px;
     height: 137px;
-    left: 318px;
+    left: 310px;
     top: 127px;
+
+    font-size: 50px;
 
     background: #FFFFFF;
     border-radius: 68.5px;
 }
 
-.search-text {
-    width: 217px;
-    height: 59px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 39.1429px;
-    line-height: 59px;
-    /* identical to box height, or 150% */
-
-    display: flex;
-    align-items: center;
-
-    /* M3/sys/light/on-surface-variant */
-
-    color: #49454F;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-.button1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 24.46px;
-
-    width: 117.43px;
-    height: 117.43px;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
 .search-button {
-    position: relative;
+    position: absolute;
+    top: 170px;
+    left: 1060px;
+
     width: 58.71px;
     height: 58.71px;
-    left: 170px;
+
     background-color: white;
     border-style: none;
 

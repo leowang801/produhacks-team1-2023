@@ -12,16 +12,7 @@ export default function CourseFinder() {
             <div className='ellipse'></div>
 
             <div className = 'search'>
-                <button className='button1'>
-                    M
-                </button>
-                <label
-                  className="search-text"
-                >
-                  Find Course
-                </label>
-                <div>
-                  <input
+                <input
                     id="course"
                     name="course"
                     type="course"
@@ -29,9 +20,10 @@ export default function CourseFinder() {
                     //value={email}
                     //onChange={(e) => setEmail(e.target.value)}
                     required
+                    placeholder='Find Course'
                     className="course-input"
-                    />
-                </div>
+                />
+
                 <button 
                     className='search-button'
                     //onSubmit={}
