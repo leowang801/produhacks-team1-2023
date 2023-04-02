@@ -61,6 +61,8 @@
     left: 108px;
     top: 291px;
     
+    font-size: 40px;
+
     border-radius: 6.21429px 6.21429px 6.21429px 6.21429px;
 }
 
@@ -101,6 +103,8 @@
     height: 87px;
     left: 108px;
     top: 455px;
+
+    font-size: 40px;
 
     border-radius: 6.21429px 6.21429px 6.21429px 6.21429px;
 }
@@ -144,6 +148,8 @@
     left: 108px;
     top: 619px;
 
+    font-size: 40px;
+
     border-radius: 6.21429px 6.21429px 6.21429px 6.21429px;
 }
 
@@ -186,6 +192,8 @@
     left: 108px;
     top: 783px;
 
+    font-size: 40px;
+    
     border-radius: 6.21429px 6.21429px 6.21429px 6.21429px;
 }
 

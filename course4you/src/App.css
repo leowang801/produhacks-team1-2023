@@ -2,50 +2,107 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home-background {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+
+  background: #FFFFFF;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.home-gradient {
+  position: absolute;
+  width: 1475px;
+  height: 994px;
+  left: -431px;
+  top: -496px;
+  
+  background: #D5C7DE;
+  filter: blur(250px); 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.welcome-message {
+  position: absolute;
+  width: 1073px;
+  height: 102px;
+  left: 108px;
+  top: 88px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 84px;
+  line-height: 102px;
+  /* identical to box height */
+  
+  
+  color: #15182B;
+}
+
+.welcome-sub-message {
+  position: absolute;
+  width: 700px;
+  height: 63px;
+  left: 108px;
+  top: 200px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 52px;
+  line-height: 63px;
+  /* identical to box height */
+  
+  
+  color: #15182B;
+}
+
+.welcome-text {
+  position: absolute;
+  width: 658px;
+  height: 407px;
+  left: 649px;
+  top: 341px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 167.8%;
+  /* or 40px */
+  
+  
+  color: #15182B;
+}
+
+.welcome-image {
+  position: absolute;
+  width: 434px;
+  height: 546px;
+  left: 90px;
+  top: 337px;
+
+  border-radius: 50%;
+  
+  background: #D5C7DE;
+}
+
+.register-button {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  align-items: center;
+  padding: 0px;
+  gap: 34.4px;
+  
+  position: absolute;
+  width: 545.24px;
+  height: 185.84px;
+  left: 649px;
+  top: 686px;
+  
+  font-size: 80px;
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.login-button {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
+  background: #D5C7DE;
+  border-radius: 430px;
 }
