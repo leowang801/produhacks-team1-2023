@@ -1,9 +1,10 @@
 import { Routes, Route, useNavigate } from 'react-router-dom';
 
 import Login from './pages/login/login';
-import './App.css';
+import ClassBreakdown from './pages/classBreakdown/classBreakdown';
+import Profile from './pages/user/profile';
 import CourseFinder from './pages/courseFinder/courseFinder';
-
+import './App.css';
 
 export default function App() {
   const navigate = useNavigate();
@@ -53,6 +54,8 @@ export default function App() {
 
         <Route path="/pages/login" element={<Login />} />
         <Route path="/pages/courseFinder/courseFinder" element={<CourseFinder/>} />
+        <Route path="/pages/classBreakdown/classBreakdown" element={<ClassBreakdown/>} />
+        <Route path="/pages/user/profile" element={<Profile/>} />
       </Routes>
     </div>
     </>
