@@ -1,0 +1,214 @@
+.register {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+
+    background: #FFFFFF;
+}
+
+.create-account-text {
+    position: absolute;
+    width: 1083px;
+    height: 97px;
+    left: 108px;
+    top: 88px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 97px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.email {
+    position: absolute;
+    width: 540px;
+    height: 140px;
+    left: 108px;
+    top: 30px;
+}
+
+.email-text {
+    position: absolute;
+
+    width: 103px;
+    height: 48px;
+    left: 108px;
+    top: 238px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #000000;
+}
+
+.email-input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: absolute;
+    width: 540px;
+    height: 87px;
+    left: 108px;
+    top: 291px;
+    
+    border-radius: 6.21429px 6.21429px 6.21429px 6.21429px;
+}
+
+.password {
+    position: absolute;
+    width: 540px;
+    height: 140px;
+    left: 108px;
+    top: 30px;
+}
+
+.password-text {
+    position: absolute;
+    width: 188px;
+    height: 48px;
+    left: 108px;
+    top: 402px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    
+    color: #000000;    
+}
+
+.password-input {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 540px;
+    height: 87px;
+    left: 108px;
+    top: 455px;
+
+    border-radius: 6.21429px 6.21429px 6.21429px 6.21429px;
+}
+
+.student-number {
+    position: absolute;
+    width: 540px;
+    height: 140px;
+    left: 108px;
+    top: 30px;
+}
+
+
+.student-number-text {
+    position: absolute;
+    width: 188px;
+    height: 48px;
+    left: 108px;
+    top: 566px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    
+    color: #000000;    
+}
+
+.student-number-input {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 540px;
+    height: 87px;
+    left: 108px;
+    top: 619px;
+
+    border-radius: 6.21429px 6.21429px 6.21429px 6.21429px;
+}
+
+.major {
+    position: absolute;
+    width: 540px;
+    height: 140px;
+    left: 108px;
+    top: 30px;
+}
+
+
+.major-text {
+    position: absolute;
+    width: 188px;
+    height: 48px;
+    left: 70px;
+    top: 730px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    
+    color: #000000;    
+}
+
+.major-input {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 540px;
+    height: 87px;
+    left: 108px;
+    top: 783px;
+
+    border-radius: 6.21429px 6.21429px 6.21429px 6.21429px;
+}
+
+.continue-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 34.4px;
+
+    position: absolute;
+    width: 448.4px;
+    height: 172px;
+    left: 864px;
+    top: 728px;
+
+    background: #D5C7DE;
+    border-radius: 430px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60.2px;
+    line-height: 86px;
+}
