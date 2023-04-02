@@ -1,8 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { useHistory } from 'react-router-dom';
 import './login.css';
 
 export default function Login() {
     console.log('Login page rendered');
+
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+    const [studentNumber, setStudentNumber] = useState('');
+    const [major, setMajor] = useState('');
+
+    const history = useHistory();
+
+    const onSubmit = (e) => {
+        e.preventDefault();
+
+        console.log('Form submitted');
+        console.log(email);
+        console.log(password);
+        console.log(studentNumber);
+        console.log(major);
+
+        history.push('/pages/');
+    }
 
 
     return (
@@ -26,8 +46,8 @@ export default function Login() {
                     name="email"
                     type="email"
                     autoComplete="email"
-                    //value={email}
-                    //onChange={(e) => setEmail(e.target.value)}
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
                     required
                     className="email-input"
                     />
@@ -46,8 +66,8 @@ export default function Login() {
                     name="password"
                     type="password"
                     autoComplete="password"
-                    //value={[password]}
-                    //onChange={(e) => setPassword(e.target.value)}
+                    value={[password]}
+                    onChange={(e) => setPassword(e.target.value)}
                     required
                     className="password-input"
                     />
@@ -66,8 +86,8 @@ export default function Login() {
                     name="student-number"
                     type="text"
                     autoComplete="student-number"
-                    //value={[password]}
-                    //onChange={(e) => setPassword(e.target.value)}
+                    value={[studentNumber]}
+                    onChange={(e) => setStudentNumber(e.target.value)}
                     required
                     className="student-number-input"
                     />
@@ -86,8 +106,8 @@ export default function Login() {
                     name="major"
                     type="major"
                     autoComplete="major"
-                    //value={[password]}
-                    //onChange={(e) => setPassword(e.target.value)}
+                    value={[major]}
+                    onChange={(e) => setMajor(e.target.value)}
                     required
                     className="major-input"
                     />
@@ -97,7 +117,7 @@ export default function Login() {
             <div className = 'continue'>
                 <button 
                 type='submit'
-                //onClick={onSubmit}     
+                onClick={onSubmit}     
                 className="continue-button">
                     Continue
                 </button>
