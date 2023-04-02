@@ -12,7 +12,7 @@ export default function CourseFinder() {
 
             <div className = 'search'>
                 <button className='button1'>
-
+                    M
                 </button>
                 <label
                   className="search-text"
@@ -31,21 +31,26 @@ export default function CourseFinder() {
                     className="course-input"
                     />
                 </div>
+                <button className='search-button'>
+                    S
+                </button>
             </div>
 
-            <h1 className='suggested-courses-text'>
+            <div className='suggested-courses-text'>
                 Suggested Courses
-            </h1>
+            </div>
 
             <div className='course1'>
                 <h1 className='class1'>
                     STAT 201
                 </h1>
-                <div className='text'>
-                Classical and simulation-based 
-                techniques for estimation and 
-                hypothesis testing, including 
-                inference for...
+                <div className='inner-box1'>
+                    <p>
+                    Classical and simulation-based 
+                    techniques for estimation and 
+                    hypothesis testing, including 
+                    inference for...
+                    </p>
                 </div>
             </div>
 
@@ -53,7 +58,7 @@ export default function CourseFinder() {
                 <h1 className='class2'>
                     MATH 101
                 </h1>
-                <div className='text'>
+                <div className='inner-box2'>
                 Classical and simulation-based 
                 techniques for estimation and 
                 hypothesis testing, including 
@@ -65,7 +70,7 @@ export default function CourseFinder() {
                 <h1 className='class3'>
                     CPSC 221
                 </h1>
-                <div className='text'>
+                <div className='inner-box3'>
                 Classical and simulation-based 
                 techniques for estimation and 
                 hypothesis testing, including 
@@ -73,14 +78,12 @@ export default function CourseFinder() {
                 </div>
             </div>
 
-            <div className='profile-button'>
-                <button 
-                type='submit'
-                //onClick={onSubmit}     
-                className="profile-button">
-                    Profile
-                </button>
-            </div>
+            <button 
+            type='submit'
+            //onClick={onSubmit}     
+            className="profile-button">
+                Profile
+            </button>
 
         </div>
         </>

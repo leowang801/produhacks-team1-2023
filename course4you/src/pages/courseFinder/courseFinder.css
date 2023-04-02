@@ -68,6 +68,26 @@
     flex-grow: 0;
 }
 
+.search-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 24.46px;
+
+    /* display: none; */
+    width: 117.43px;
+    height: 117.43px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
 .suggested-courses-text {
     position: absolute;
     width: 596px;
@@ -82,36 +102,82 @@
     line-height: 73px;
     /* identical to box height */
 
-    color: #000000;
+
+    color: #15182B;
 }
 
 .course1 {
-    border: 2px solid black;
+    /* border: 2px solid black;
     position: absolute;
     width: 334.05px;
     height: 298.94px;
     left: 167px;
     top: 512px;
 
-    mix-blend-mode: normal;
+    mix-blend-mode: normal; */
+    position: absolute;
+    width: 334.05px;
+    height: 298.94px;
+    left: 167px;
+    top: 512px;
+
+    background: #D5C7DE;
+    border-radius: 29.7135px;
+}
+
+.inner-box1 {
+    position: absolute;
+    width: 299.84px;
+    height: 186.38px;
+    left: 17px;
+    top: 70px;
+
+    background: #FFFFFF;
+    border-radius: 29.7135px;
 }
 
 .course2 {
-    border: 2px solid black;
     position: absolute;
     width: 334.05px;
     height: 298.94px;
     left: 551.47px;
     top: 512px;
+
+    background: #D5C7DE;
+    border-radius: 29.7135px;
+}
+
+.inner-box2 {
+    position: absolute;
+    width: 299.84px;
+    height: 186.38px;
+    left: 17px;
+    top: 70px;
+
+    background: #FFFFFF;
+    border-radius: 29.7135px;
 }
 
 .course3 {
-    border: 2px solid black;
     position: absolute;
     width: 334.05px;
     height: 298.94px;
     left: 935.95px;
     top: 512px;
+
+    background: #D5C7DE;
+    border-radius: 29.7135px;
+}
+
+.inner-box3 {
+    position: absolute;
+    width: 299.84px;
+    height: 186.38px;
+    left: 17px;
+    top: 70px;
+
+    background: #FFFFFF;
+    border-radius: 29.7135px;
 }
 
 /* .class1 {
@@ -198,7 +264,7 @@
     width: 167px;
     height: 99.67px;
     left: 634px;
-    top: 500px;
+    top: 881px;
 
     background: #D5C7DE;
     border-radius: 191.667px;
