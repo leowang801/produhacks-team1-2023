@@ -29,6 +29,7 @@
     height: 118px;
     left: 182px;
     top: 523px;
+    font-size: 40px;
 
     background: #D5C7DE;
     border-radius: 295px;
@@ -46,6 +47,7 @@
     height: 118px;
     left: 558px;
     top: 523px;
+    font-size: 40px;
 
     background: #D5C7DE;
     border-radius: 295px;
@@ -63,7 +65,17 @@
     height: 118px;
     left: 940px;
     top: 523px;
+    font-size: 40px;
 
     background: #D5C7DE;
     border-radius: 295px;
+}
+
+.learner-question {
+    border-style: none;
+}
+.learner-question:hover {
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    
 }

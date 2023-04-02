@@ -5,6 +5,7 @@ import ClassBreakdown from './pages/classBreakdown/classBreakdown';
 import Profile from './pages/user/profile';
 import CourseFinder from './pages/courseFinder/courseFinder';
 import StrengthsQuestions from './pages/questionnaire/strengthsQuestions';
+import LearnerQuestionnaire from './pages/questionnaire/learnerQuestionnaire';
 import './App.css';
 
 export default function App() {
@@ -58,6 +59,7 @@ export default function App() {
         <Route path="/pages/classBreakdown/classBreakdown" element={<ClassBreakdown/>} />
         <Route path="/pages/user/profile" element={<Profile/>} />
         <Route path="/pages/questionnaire/strengthsQuestions" element={<StrengthsQuestions/>} />
+        <Route path="/pages/questionnaire/learnerQuestionaire" element={<LearnerQuestionnaire/>} />
       </Routes>
     </div>
     </>

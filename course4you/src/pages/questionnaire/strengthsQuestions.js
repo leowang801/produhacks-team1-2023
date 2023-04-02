@@ -21,57 +21,74 @@ export default function StrengthsQuestions() {
     "Philosophy"
   ];
 
-  const handleCheckboxChange = (event) => {
+  const handleStrengthsCheckboxChange = (event) => {
     const { name, checked } = event.target;
     if (checked) {
       setStrengths([...strengths, name]);
-      setWeaknesses([...weaknesses, name]);
+      
     } else {
       setStrengths(strengths.filter((s) => s !== name));
-      setWeaknesses(weaknesses.filter((s) => s !== name));
     }
   };
 
-  return (
-    <div className="strengths-background">
-      <div className="strengths-gradient"></div>
+  const handleWeaknessesCheckboxChange = (event) => {
+    const { name, checked } = event.target;
+    if (checked) {
+        setWeaknesses([...weaknesses, name]);
+    } else {
+        setWeaknesses(weaknesses.filter((s) => s !== name));
+    }
+};
+        
 
-      <h1 className="main-question-title">
-        What are your strengths and weaknesses?
-      </h1>
+  return (
+    <>
+    <div className="strengths-background">
+        <div className="ellipse-question"></div>
+
+        <div className="main-question-title">
+            <h1 className="">
+                What are your strengths and weaknesses?
+            </h1>
+        </div>
+      
 
       <div className="checkboxes">
-        <h2>Strengths:</h2>
-        {questions.map((question, index) => (
-          <div key={index}>
-            <label>
-              <input
-                type="checkbox"
-                name={question}
-                checked={strengths.includes(question)}
-                onChange={handleCheckboxChange}
-              />
-              {question}
-            </label>
-          </div>
-        ))}
+        <div className="checkbox">
+            <h2 className="strengths-title">Strengths:</h2>
+            {questions.map((question, index) => (
+                <div key={index}>
+                <label className="question-label">
+                <input
+                    type="checkbox"
+                    name={question}
+                    checked={strengths.includes(question)}
+                    onChange={handleStrengthsCheckboxChange}
+                />
+                {question}
+                </label>
+                </div>
+            ))}
+        </div>
+        <div className="checkbox">
+            <h2 className="weakness-title">Weaknesses:</h2>
+            {questions.map((question, index) => (
+                <div key={index}>
+                <label className="question-label">
+                <input
+                    type="checkbox"
+                    name={question}
+                    checked={weaknesses.includes(question)}
+                    onChange={handleWeaknessesCheckboxChange}
+                />
+                {question}
+                </label>
+                </div>
+            ))}
+        </div>
 
-        <h2>Weaknesses:</h2>
-        {questions.map((question, index) => (
-          <div key={index}>
-            <label>
-              <input
-                type="checkbox"
-                name={question}
-                checked={weaknesses.includes(question)}
-                onChange={handleCheckboxChange}
-              />
-              {question}
-            </label>
-          </div>
-        ))}
-
-      </div>
+        </div>
     </div>
+    </>
   );
 }

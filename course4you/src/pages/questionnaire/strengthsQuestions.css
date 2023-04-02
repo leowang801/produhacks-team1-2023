@@ -1,3 +1,43 @@
 .strengths-background {
-    background-color: white;
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+    height: 1024px;
+}
+
+.main-question-title {
+    position: absolute;
+    width: 1164px;
+    height: 120px;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 97px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #15182B;
+
+}
+
+.checkboxes {
+    position: relative;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    height: fit-content;
+    top: 150px;
+}
+
+.checkbox {
+    display: grid;
+
+    margin-left: 30px;
+    margin-right: 30px;
 }

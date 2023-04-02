@@ -4,8 +4,16 @@ import searchGlass from '../imgs/search-glass.png';
 import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 
-export default function learnerQuestionnaire() {
+export default function LearnerQuestionnaire() {
     //console.log('Course Finder page rendered');
+
+    const navigate = useNavigate();
+
+    const onSubmit = (e) => {
+        e.preventDefault();
+
+        navigate('/pages/questionnaire/strengthsQuestions');
+    }
 
     return (
         <>
@@ -16,16 +24,19 @@ export default function learnerQuestionnaire() {
                 What is your learning style?
             </div>
 
-            <button className='choice-1'>
-                Option 1
+            <button className='choice-1 learner-question'
+                    onClick={onSubmit}>
+                Visual
             </button>
 
-            <button className='choice-2'>
-                Option 2
+            <button className='choice-2 learner-question'
+                    onClick={onSubmit}>
+                Audatory
             </button>
 
-            <button className='choice-3'>
-                Option 3
+            <button className='choice-3 learner-question'
+                    onClick={onSubmit}>
+                Kinisthetic
             </button>
 
         </div>
