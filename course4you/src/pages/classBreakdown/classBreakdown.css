@@ -156,34 +156,6 @@
     color: #FFFFFF;
 }
 
-.advice-box {
-    position: absolute;
-    width: 660.52px;
-    height: 170px;
-    left: 98px;
-    top: 600px;
-
-    background: #D5C7DE;
-    border-radius: 20px;
-}
-
-.advice {
-    position: absolute;
-    width: 508.64px;
-    height: 112px;
-    left: 100px;
-    top: 20px;
-    margin: 0;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 36px;
-    line-height: 44px;
-
-    color: #000000;
-}
-
 .comments {
     position: absolute;
     width: 226px;
