@@ -1,0 +1,105 @@
+.h1 {
+    position: absolute;
+    width: 474px;
+    height: 121px;
+    left: 98px;
+    top: 95px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 121px;
+    /* identical to box height */
+
+
+    color: #15182B;
+}
+
+.h2 {
+    position: absolute;
+    width: 498px;
+    height: 63px;
+    left: 98px;
+    top: 216px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 63px;
+    /* identical to box height */
+
+
+    color: #15182B;
+}
+
+.h3 {
+    position: absolute;
+    width: 297px;
+    height: 53px;
+    left: 98px;
+    top: 335px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 53px;
+
+    color: #15182B;
+}
+
+.course-box {
+    position: absolute;
+    width: 244px;
+    height: 65px;
+    left: 98px;
+    top: 408px;
+}
+
+.course-rect {
+    position: absolute;
+    width: 244px;
+    height: 65px;
+    left: 98px;
+    top: 408px;
+
+    background: #D5C7DE;
+    border-radius: 20px;
+}
+
+.course-name {
+    position: absolute;
+    width: 204px;
+    height: 53px;
+    left: 118px;
+    top: 414px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 53px;
+
+    color: #FFFFFF;
+}
+
+.course-description {
+    position: absolute;
+    width: 658px;
+    height: 200px;
+    left: 681px;
+    top: 107px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 167.8%;
+    /* or 40px */
+
+    text-align: justify;
+
+    color: #15182B;
+}
