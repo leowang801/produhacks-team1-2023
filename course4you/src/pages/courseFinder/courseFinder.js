@@ -12,7 +12,7 @@ export default function CourseFinder() {
 
             <div className = 'search'>
                 <button className='button1'>
-
+                    M
                 </button>
                 <label
                   className="search-text"
@@ -31,41 +31,63 @@ export default function CourseFinder() {
                     className="course-input"
                     />
                 </div>
+                <button className='search-button'>
+                    S
+                </button>
             </div>
 
-            <h1 className='suggested-courses-text'>
+            <div className='suggested-courses-text'>
                 Suggested Courses
-            </h1>
+            </div>
 
             <div className='course1'>
-                <h1 className='class1'></h1>
-                <div className='text'>
-                    
+                <h1 className='class1'>
+                    STAT 201
+                </h1>
+                <div className='inner-box1'>
+                    <p className='description'>
+                    Classical and simulation-based 
+                    techniques for estimation and 
+                    hypothesis testing, including 
+                    inference for...
+                    </p>
                 </div>
             </div>
 
             <div className='course2'>
-                <h1 className='class2'></h1>
-                <div>
-                    
+                <h1 className='class2'>
+                    MATH 101
+                </h1>
+                <div className='inner-box2'>
+                <p className='description'> 
+                Classical and simulation-based 
+                techniques for estimation and 
+                hypothesis testing, including 
+                inference for...
+                </p>
                 </div>
             </div>
 
             <div className='course3'>
-                <h1 className='class3'></h1>
-                <div>
-                    
+                <h1 className='class3'>
+                    CPSC 221
+                </h1>
+                <div className='inner-box3'>
+                <p className='description'>
+                Classical and simulation-based 
+                techniques for estimation and 
+                hypothesis testing, including 
+                inference for...
+                </p>
                 </div>
             </div>
 
-            <div className='profile-button'>
-                <button 
-                type='submit'
-                //onClick={onSubmit}     
-                className="profile-button">
-                    Continue
-                </button>
-            </div>
+            <button 
+            type='submit'
+            //onClick={onSubmit}     
+            className="profile-button">
+                Profile
+            </button>
 
         </div>
         </>
