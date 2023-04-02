@@ -1,5 +1,6 @@
 import React from 'react';
 import commentIcon from '../imgs/comment-icon.png';
+import pieChart from '../imgs/pie-chart.png';
 import './classBreakdown.css';
 import { useLocation } from 'react-router-dom';
 
@@ -55,6 +56,8 @@ export default function ClassBreakdown() {
             <button className='comments'>
                 <img src={commentIcon} alt='' className='comment-icon'/>
             </button>
+
+            <img src={pieChart} alt='' className='pie-chart'></img>
         </div>
         </>
 

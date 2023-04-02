@@ -178,6 +178,18 @@
     top: 70px;
 }
 
+.pie-chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    left: 100px;
+    top: 500px;
+}
+
 .comments:hover {
     cursor: pointer;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
