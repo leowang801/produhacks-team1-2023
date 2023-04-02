@@ -1,4 +1,5 @@
 import React from 'react';
+import commentIcon from '../imgs/comment-icon.png';
 import './classBreakdown.css';
 
 export default function ClassBreakdown() {
@@ -23,11 +24,9 @@ export default function ClassBreakdown() {
             </div>
 
             <div className='course-box'>
-                <rect className='course-rect'>
-                    <p className='course-name'>
+                <h1 className='course-name'>
                         DSCI 100
-                    </p>
-                </rect>
+                </h1>
             </div>
 
             <div className='course-description'>
@@ -50,22 +49,8 @@ export default function ClassBreakdown() {
                 </div>
             </div>
 
-            <div className='advice-box'>
-                <button className='tips-button'>
-
-                </button>
-                <p className='advice'>
-                    Students who also took MATH 101 
-                    did 7% better in STAT 201 on average!
-                </p>
-            </div>
-
-            <button className='back-button'>
-
-            </button>
-
             <button className='comments'>
-
+                <img src={commentIcon} className='comment-icon'/>
             </button>
 
         </div>
