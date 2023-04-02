@@ -1,28 +1,32 @@
-import { BrowserRouter, Link, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom';
+
 import Login from './pages/login';
 import './App.css';
 
 
 export default function App() {
-  const handleButtonClick = () => {
+  const navigate = useNavigate();
+
+  const navigateToLogin = () => {
+    navigate('/pages/login');
     console.log('Login button clicked');
   };
 
   return (
-    <BrowserRouter>
-      <div className="App">
-        <header className="App-header">
-          Welcome to Course4You
-          <Link to="/pages/login">
-          <button className="login-button" onClick={handleButtonClick}>
-            Login
-          </button>
-        </Link>
-        <Routes>
-          <Route path="/pages/login" component={Login} />
-        </Routes>
-        </header>
-      </div>
-    </BrowserRouter>
+    <>
+    <div className="App">
+      <Routes>
+        <Route path="/" element={
+          
+            <div className="App-header">
+              Welcome to Course4You
+              <button className="login-button" onClick={navigateToLogin}>
+                Login
+              </button>
+          </div>} />
+        <Route path="/pages/login" element={<Login />} />
+      </Routes>
+    </div>
+    </>
   );
 }
