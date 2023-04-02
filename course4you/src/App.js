@@ -1,6 +1,6 @@
 import { Routes, Route, useNavigate } from 'react-router-dom';
 
-import Login from './pages/login';
+import Login from './pages/login/login';
 import './App.css';
 import CourseFinder from './pages/courseFinder/courseFinder';
 
@@ -40,7 +40,7 @@ export default function App() {
             </p>
 
             <div className='welcome-image'>
-              
+
             </div>
 
             <button 

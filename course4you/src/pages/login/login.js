@@ -24,7 +24,6 @@ export default function Login() {
         navigate('/pages/courseFinder/courseFinder');
     }
 
-
     return (
         <>
         <div className="register">
